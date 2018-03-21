@@ -1,0 +1,439 @@
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+}
+
+body {
+	font-family: 'Raleway', 'Open Sans', sans-serif;
+	height:100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', 'Open Sans', sans-serif;
+}
+
+#site-header {
+	background-image: url('../images/website/background_header.png');
+	color: #FFFFFF;
+}
+
+.site-nav {
+	padding: 25px 0;
+}
+
+#fixed-header {
+	background-color: #E1352B;
+	color: #FFFFFF;
+	width: 100%;
+	position: fixed;
+	z-index: 3;
+	top: 0;
+}
+
+#header-app-about {
+	margin: 50px 0;
+}
+
+#app-about {
+	font-size: 36px;
+	font-weight: 100;
+	font-family: 'Raleway', 'Open Sans', sans-serif;
+}
+
+.nav-header {
+	text-align: right;
+}
+
+.nav-link {
+	font-size: 16px;
+	font-weight: 500;
+	margin-left: 20px;
+	margin-right: 10px;
+	height: inherit;
+	display: inline-block;
+}
+
+.nav-link a, .nav-link a:hover {
+	color: #FFFFFF;
+}
+
+.get-the-app {
+    border: 2px solid #FFFFFF;
+    padding: 6px 12px;
+    border-radius: 6px;
+	color: #FFFFFF;
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+.get-the-app:hover {
+    background-color: #FFFFFF;
+    color: #E1352B;
+}
+
+#win-big {
+	font-weight: 900;
+}
+
+.app-subheader {
+	font-size: 14pt;
+	margin-top: 45px;
+}
+
+.app-downloads {
+	margin-bottom: 45px;
+}
+
+#how-it-works .content-header {
+	margin-bottom: 90px;
+}
+
+.content-header {
+	color: #E1352B;
+	font-size: 36px;
+	font-weight: 100;
+	margin-bottom: 60px;
+	margin-top: 60px;
+}
+
+#how-it-works .content-subheader {
+	color: #E1352B;
+	font-family: 'Montserrat', 'Open Sans', sans-serif;
+	font-size: 36px;
+	font-weight: 900;
+}
+
+.content-subheader {
+	color: #E1352B;
+	font-family: 'Montserrat', 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 900;
+}
+
+.content-subtext {
+	color: #6A6C6C;
+	font-size: 14px;
+	font-weight: 500;
+	margin-top: 15px;
+}
+
+#how-it-works {
+	margin-bottom: 90px;
+}
+
+#rewards {
+	background-color: #EDF1EC;
+	padding-bottom: 220px;
+}
+
+#rewards .content-header {
+	margin-bottom: 45px;
+}
+
+#contact-us {
+	background-image: url('../images/website/background.png');
+	color: #FFFFFF;
+	padding-top: 90px;
+}
+
+.site-logo {
+	margin-bottom: 45px;
+}
+
+.download-text {
+	font-size: 24px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.text-indent {
+	text-indent: 35px;
+}
+
+#follow-us {
+	margin-top: 45px;
+	font-size: 12px;
+}
+
+.support-email {
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: 900;
+	text-decoration: underline;
+}
+
+.support-email:hover {
+	color: #FFFFFF;
+}
+
+.followus-icon {
+	margin-bottom: 45px;
+}
+
+footer {
+	background-color: #000000;
+}
+
+footer a {
+	color: #FFFFFF;
+	font-size: 13px;
+	font-weight: 700;
+}
+
+footer a:hover, footer a:active {
+	color: #ED8B00;
+}
+
+ul#footer-nav {
+	margin: 30px 0 0 0;
+	color: #FFFFFF;
+}
+
+ul#footer-nav li {
+	list-style: none; display: inline;
+}
+
+ul#footer-nav li:after {
+	content: " \00b7";
+}
+
+ul#footer-nav li:last-child:after {
+	content: none;
+}
+
+.app-name {
+	font-family: 'Montserrat', 'Open Sans', sans-serif;
+	font-weight: 900;
+}
+
+.app-details {
+	color: #ED8B00;
+	font-size: 13px;
+	margin-top: 10px;
+}
+
+#car-prize {
+	left: 0;
+	right: 0;
+	margin-top: -11%;
+	position: absolute;
+}
+
+.sparkle-row {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-top: -8%;
+}
+
+.section {
+	margin-bottom: 50px;
+}
+
+.buttons {
+	margin-top: 20px;
+}
+
+.playstore-link {
+	color: #ED8B00;
+}
+
+.playstore-link:hover {
+	text-decoration: underline;
+	color: #ED8B00;
+}
+
+.captcha {
+	margin-left: 3.5%;
+}
+
+.playstore-label {
+	font-size: 24px;
+}
+
+@media only screen and (max-width: 480px)  {
+	.nav-header {
+		text-align: center;
+	}
+
+	.site-nav {
+		padding: 0;
+	}
+
+	#how-it-works {
+		margin-bottom: 60px;
+	}
+
+	#app-about {
+		font-size: 30px;
+	}
+
+	.content-header {
+		font-size: 30px;
+		margin-bottom: 60px;
+	}
+
+	#how-it-works .content-subheader {
+		font-size: 30px;
+	}
+
+	.content-section {
+		padding-bottom: 30px;
+	}
+
+	.content-section img {
+		height: 25rem;
+	}
+
+	.content-section.text {
+		margin-top: 25%;
+	}
+
+	.sparkle-row {
+		margin-top: -42%;
+	}
+
+	#rewards {
+		padding-bottom: 100px;
+	}
+
+	#car-prize {
+		margin-top: -18%;
+	}
+
+	#follow-us {
+		margin-top: 0;
+	}
+
+	
+}
+
+@media only screen and (min-width: 481px) and (max-width: 640px)  {
+	.site-nav {
+		padding: 0;
+		text-align: center;
+	}
+
+	.nav-link {
+		font-size: 22px;
+	}
+
+	#site-header img, #fixed-header img, #contact-us img {
+		height: 2.75rem;
+	}
+
+	.app-downloads.end {
+		text-align: left;
+	}
+
+	.content-section img {
+		height: 25rem;
+	}
+
+	.content-section {
+		text-align: center;
+		padding-bottom: 30px;
+	}
+
+	.content-section.text {
+		margin-top: 20%;
+		text-align: left;
+	}
+
+	#how-it-works {
+		margin-bottom: 40px;
+	}
+
+	.sparkle-row {
+		margin-top: -35%;
+	}
+
+	#rewards {
+		padding-bottom: 150px;
+	}
+
+	#car-prize {
+		margin-top: -18%;
+	}
+
+	#follow-us {
+		margin-top: 0;
+	}
+}
+
+@media only screen and (min-width: 641px) and (max-width: 768px)  {
+	#how-it-works .content-subheader {
+		font-size: 26px;
+	}
+
+	.content-subtext {
+		font-size: 12px;
+	}
+
+	.content-header {
+		margin-bottom: 60px;
+	}
+
+	.sparkle-row {
+		margin-top: -25%;
+	}
+
+	#car-prize {
+		margin-top: -19%;
+	}
+
+	#follow-us {
+		margin-top: 0;
+	}
+
+	.followus-icon img {
+		height: 3rem;
+	}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px)  {
+	.nav-link {
+		font-size: 28px;
+	}
+
+	.sparkle-row {
+		margin-top: -25%;
+	}
+
+	#rewards {
+		padding-bottom: 250px;
+	}
+
+	#car-prize {
+		margin-top: -19%;
+	}
+
+	.site-logo {
+		height: 3.5rem;
+	}
+
+	.download-text {
+		padding-bottom: 50px;
+	}
+
+	#follow-us {
+		margin-top: 0;
+	}
+
+	.followus-icon img {
+		height: 3rem;
+	}
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1366px)  {
+	.sparkle-row {
+		margin-top: -12%;
+	}
+
+	#car-prize {
+		margin-top: -15%;
+	}
+}

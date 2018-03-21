@@ -1,0 +1,390 @@
+#updates-header {
+	/* fallback */
+	background-color: #FFDFB1;
+
+	/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 100% 0%, 0% 0%, from(#FFDFB1), to(#EAE5E3));
+
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(bottom, #EAE5E3, #FFDFB1);
+
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(bottom, #EAE5E3, #FFDFB1);
+
+	/* IE 10 */
+	background: -ms-linear-gradient(bottom, #EAE5E3, #FFDFB1);
+
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(bottom, #EAE5E3, #FFDFB1);
+}
+
+#fixed-header {
+	background-color: #FFDFB1;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.header-subtext {
+	color: #F15A24;
+	font-size: 14pt;
+	font-weight: 500;
+}
+
+.filler {
+	margin-top: 90px;
+}
+
+img.explosion {
+	height: 280px;
+	width: 470px;
+}
+
+.section-title {
+	color: #F64118;
+	font-size: 18pt;
+	font-weight: 900;
+}
+
+.section-body {
+	color: #808080;
+	font-size: 12pt;
+	font-weight: 500;
+}
+
+img.intro {
+	width: 300px;
+}
+
+.margin-40 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.margin-top-50 {
+	margin-top: 50px;
+}
+
+.margin-70 {
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.margin-top-30 {
+	margin-top: 30px;
+}
+
+.margin-45 {
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+
+.bg-gradient {
+	background-image: url('../images/updates/section_bg_gradient.png');
+	background-repeat: no-repeat;
+}
+
+.chip-container img.chip {
+	padding: 34px;
+}
+
+.chip-container {
+	background-color: #FFFFFF;
+}
+
+.glow {
+	-webkit-box-shadow:0 0 10px rgba(255, 157, 0, 0.4); 
+    -moz-box-shadow: 0 0 10px rgba(255, 157, 0, 0.4);
+    box-shadow:0 0 10px rgba(255, 157, 0, 0.4);
+}
+
+.chip-text {
+	padding-top: 2px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+}
+
+.chip-text .section-body {
+	margin-top: 24px;
+}
+
+.subheader {
+	color: #F64118;
+	font-size: 24pt;
+	font-weight: 900;
+}
+
+img.sparkle {
+	height: 140px;
+}
+
+.regular-chips-container {
+	background-color: #EAE5E3;
+	padding-bottom: 45px;
+}
+
+.regular-chips-container .header-subtext {
+	margin-top: 24px;
+}
+
+.regular-chips-container .subheader {
+	margin-top: 48px;
+}
+
+.regular-chips-container .section-title {
+	margin-top: 24px;
+}
+
+.regular-chips-container .section-body {
+	margin-top: 16px;
+}
+
+.regular-chips {
+	position: absolute;
+	margin-top: 7.5%;
+}
+
+.regular-chips-container .chip-text {
+	padding-bottom: 10px;
+}
+
+.rewards-container {
+	padding-top: 60px;
+	padding-bottom: 90px;
+}
+
+.rewards-container .section-title {
+	margin-top: 24px;
+}
+
+.section-label {
+	margin-bottom: 24px;
+}
+
+.rewards-container .section-body {
+	margin-top: 24px;
+}
+
+.reward-icons {
+	margin-top: 45px;
+}
+
+.referral-bonus {
+	background-image: url('../images/updates/red_bg.png');
+	background-repeat: no-repeat;
+	padding-bottom: 50px;
+}
+
+.section-header {
+	color: #FFEBB0;
+	font-size: 14pt;
+	font-weight: 500;
+}
+
+.section-subtext {
+	color: #FFFFFF;
+	font-size: 14pt;
+	font-weight: 500;
+}
+
+.referral-bonus .section-title {
+	color: #FFEBB0;
+}
+
+.referral-bonus .section-body {
+	color: #FFFFFF;
+}
+
+.other-updates {
+	margin-top: 66px;
+	padding-bottom: 90px;
+}
+
+.other-updates .section-title {
+	margin-top: 24px;
+	font-size: 12pt;
+	font-weight: 500;
+}
+
+.other-updates .section-body {
+	margin-top: 24px;
+}
+
+.header-car {
+	top: 1.5%;
+	left: 24.5%;
+}
+
+@media only screen and (max-width: 480px)  {
+	img.explosion {
+		height: 180px;
+	}
+
+	.sparkle-row {
+		margin-top: -20%;
+	}
+
+	.top-sparkle {
+		margin-top: -40%;
+	}
+
+	.margin-top-50 {
+		margin-top: 0px;
+	}
+
+	.chip-text {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.chip-container {
+		margin-bottom: 40px;
+	}
+
+	.regular-chips {
+		margin-top: 35%;
+		left: 20%;
+	}
+
+	.regular-chips img {
+		height: 50px;
+	}
+
+	.section-header {
+		margin-top: 70px;
+	}
+
+	.vuewin-circle {
+		position: relative;
+	}
+
+	.header-car {
+		top: 1.35%;
+		left: 5%;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 640px)  {
+	img.explosion {
+		height: 180px;
+	}
+
+	.sparkle-row {
+		margin-top: -15%;
+	}
+
+	.top-sparkle {
+		margin-top: -25%;
+	}
+
+	.section-header {
+		margin-top: 70px;
+	}
+
+	.vuewin-circle {
+		position: relative;
+	}
+
+	#updates-header .image-link img, #fixed-header img {
+		height: 2.75rem;
+	}
+
+	.chip-container img.chip {
+		height: 250px;
+	}
+
+	.chip-container {
+		margin-bottom: 40px;
+	}
+
+	.regular-chips {
+		margin-top: 23%;
+	}
+
+	.regular-chips img {
+		height: 75px;
+	}
+
+	.chip-text {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.header-car {
+		top: 1.8%;
+		left: 6%;
+	}
+}
+
+@media only screen and (min-width: 641px) and (max-width: 768px)  {
+	.sparkle-row {
+		margin-top: -20%;
+	}
+
+	.top-sparkle {
+		margin-top: -30%;
+	}
+
+	.regular-chips {
+		margin-top: 25%;
+	}
+
+	.vuewin-circle .section-title {
+		font-size: 12pt;
+	}
+
+	.vuewin-circle .section-body {
+		font-size: 10pt;
+	}
+
+	.intro {
+		margin-top:90px;
+	}
+
+	.rewards-image {
+		margin-top: 90px;
+	}
+
+	.header-car {
+		top: 1.5%;
+		left: 4%;
+	}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px)  {
+	.sparkle-row {
+		margin-top: -15%;
+	}
+
+	.top-sparkle {
+		margin-top: -25%;
+	}
+
+	.header-car {
+		top: 1.8%;
+		left: 6%;
+	}
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px)  {
+	.header-car {
+		top: 1.5%;
+		left: 12.5%;
+	}
+}
+
+@media only screen and (min-width: 1281px) and (max-width: 1366px)  {
+	.header-car {
+		top: 1.5%;
+		left: 15%;
+	}
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1680px)  {
+	.header-car {
+		top: 1.5%;
+		left: 21.5%;
+	}
+}
